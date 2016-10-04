@@ -1,0 +1,16 @@
+La génération a démarré 04/10/2016 10:24:15.
+     1>Projet "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\Build\Build.proj" sur le nœud 1 (cibles par défaut).
+     1>BuildSite:
+         Copie du fichier de "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\ProxyAdminConsole\packages.config" vers "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\Build\..\artifacts\Release\SiteExtensions\ProxyAdminConsole\packages.config".
+         Copie du fichier de "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\ProxyAdminConsole\Web.config" vers "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\Build\..\artifacts\Release\SiteExtensions\ProxyAdminConsole\Web.config".
+       BuildZips:
+         Suppression du répertoire "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\Build\..\artifacts\Release\zip".
+         Création du répertoire "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\Build\..\artifacts\Release\zip".
+         Copie du fichier de "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\Build\..\build\DeployExtension.cmd" vers "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\Build\..\artifacts\Release\zip\DeployExtension.cmd".
+     1>Génération du projet "C:\Data\VisualStudio2013\github\AzureProxyAdminConsole\Build\Build.proj" terminée (cibles par défaut).
+
+La génération a réussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps écoulé 00:00:01.74
