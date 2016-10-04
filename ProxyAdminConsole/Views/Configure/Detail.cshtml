@@ -1,0 +1,42 @@
+﻿@model ProxyAdminConsole.Models.ConfigModel
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+
+<div>
+    <h4>ConfigModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RuleName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RuleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pattern)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pattern)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.UrlRewrite)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UrlRewrite)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RuleName }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

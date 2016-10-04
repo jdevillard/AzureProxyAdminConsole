@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>proxyadminconsole</id>
+    <title>Proxy Admin Console</title>
+    <version>1.0.0</version>
+    <authors>Jérémie DEVILLARD</authors>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/jdevillard/AzureProxyAdminConsole</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A sample mvc Site Extension that allow you to configure the Application Request Routing in the Main Web.Config of the Azure Web Site</description>
+    <iconUrl>https://raw.githubusercontent.com/jdevillard/AzureProxyAdminConsole/master/icon50x50.png</iconUrl>
+    <tags>arr rewrite sample siteextension</tags>
+  </metadata>
+  <files>
+    <file src="artifacts\Release\SiteExtensions\ProxyAdminConsole\**\*.*" target="content" />
+  </files>
+</package>
