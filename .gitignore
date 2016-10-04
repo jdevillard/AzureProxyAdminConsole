@@ -1,0 +1,5 @@
+packages/
+ProxyAdminConsole/obj/
+ProxyAdminConsole/bin/
+.vs/
+artifacts/
